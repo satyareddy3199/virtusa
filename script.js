@@ -27,3 +27,4 @@ async function loadnaruto() {
   }
 
 window.onload=function(){loadnaruto().then(loadsasuke()).then(loadex());}
+
