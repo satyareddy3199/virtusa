@@ -2,7 +2,7 @@ console.log("linked");
 
 async function loadnaruto() {
     document.getElementById("ramen").style.display="none";
-    document.getElementById("msg").innerHTML="Fetching vision..."
+    document.getElementById("msg").innerHTML="loading.."
     setTimeout(function(){
         document.getElementById("msg").style.display="none";
          document.getElementById("ramen").style.display="block";
@@ -10,7 +10,7 @@ async function loadnaruto() {
   }
  function loadsasuke() {
     document.getElementById("noob").style.display="none";
-    document.getElementById("msg1").innerHTML="Fetching mission..."
+    document.getElementById("msg1").innerHTML="loading..."
     setTimeout(function(){
         document.getElementById("msg1").style.display="none";
          document.getElementById("noob").style.display="block";
@@ -19,7 +19,7 @@ async function loadnaruto() {
 
   function loadex() {
     document.getElementById("pro").style.display="none";
-    document.getElementById("msg2").innerHTML="Fetching Courses..."
+    document.getElementById("msg2").innerHTML="loading...."
     setTimeout(function(){
         document.getElementById("msg2").style.display="none";
          document.getElementById("pro").style.display="block";
